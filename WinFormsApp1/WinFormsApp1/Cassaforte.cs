@@ -28,7 +28,6 @@ namespace WinFormsApp1
         {
             get { return modello; }
         }
-        private string codiceSbloccoU;
         public string CodiceSbloccoU
         {
             get { return codiceSbloccoU; }

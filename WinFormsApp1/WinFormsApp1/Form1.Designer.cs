@@ -28,108 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label3 = new Label();
-            label4 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            label5 = new Label();
+            codiceutente = new Label();
+            insutente = new TextBox();
+            insblocco = new TextBox();
+            label1 = new Label();
+            cassaforte = new Label();
+            invia = new Button();
+            invias = new Button();
+            stato = new Label();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(445, 89);
-            label1.Name = "label1";
-            label1.Size = new Size(86, 15);
-            label1.TabIndex = 1;
-            label1.Text = "codice sblocco";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(149, 89);
+            label2.Location = new Point(445, 89);
             label2.Name = "label2";
-            label2.Size = new Size(90, 15);
-            label2.TabIndex = 2;
-            label2.Text = "CODICEUTENTE";
+            label2.Size = new Size(86, 15);
+            label2.TabIndex = 1;
+            label2.Text = "codice sblocco";
             // 
-            // textBox1
+            // codiceutente
             // 
-            textBox1.Location = new Point(139, 135);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 4;
+            codiceutente.AutoSize = true;
+            codiceutente.Location = new Point(149, 89);
+            codiceutente.Name = "codiceutente";
+            codiceutente.Size = new Size(90, 15);
+            codiceutente.TabIndex = 2;
+            codiceutente.Text = "CODICEUTENTE";
             // 
-            // textBox2
+            // insutente
             // 
-            textBox2.Location = new Point(431, 135);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 5;
+            insutente.Location = new Point(139, 135);
+            insutente.Name = "insutente";
+            insutente.Size = new Size(100, 23);
+            insutente.TabIndex = 4;
             // 
-            // label3
+            // insblocco
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(278, 258);
-            label3.Name = "label3";
-            label3.Size = new Size(33, 15);
-            label3.TabIndex = 6;
-            label3.Text = "stato";
+            insblocco.Location = new Point(431, 135);
+            insblocco.Name = "insblocco";
+            insblocco.Size = new Size(100, 23);
+            insblocco.TabIndex = 5;
             // 
-            // label4
+            // label1
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(278, 289);
-            label4.Name = "label4";
-            label4.Size = new Size(76, 15);
-            label4.TabIndex = 7;
-            label4.Text = "CASSAFORTE";
+            label1.AutoSize = true;
+            label1.Location = new Point(278, 258);
+            label1.Name = "label1";
+            label1.Size = new Size(33, 15);
+            label1.TabIndex = 6;
+            label1.Text = "stato";
             // 
-            // button1
+            // cassaforte
             // 
-            button1.Location = new Point(264, 134);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 8;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            cassaforte.AutoSize = true;
+            cassaforte.Location = new Point(278, 289);
+            cassaforte.Name = "cassaforte";
+            cassaforte.Size = new Size(76, 15);
+            cassaforte.TabIndex = 7;
+            cassaforte.Text = "CASSAFORTE";
             // 
-            // button2
+            // invia
             // 
-            button2.Location = new Point(591, 135);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 9;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            invia.Location = new Point(264, 134);
+            invia.Name = "invia";
+            invia.Size = new Size(75, 23);
+            invia.TabIndex = 8;
+            invia.Text = "invia";
+            invia.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // invias
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(317, 258);
-            label5.Name = "label5";
-            label5.Size = new Size(38, 15);
-            label5.TabIndex = 10;
-            label5.Text = "label5";
+            invias.Location = new Point(591, 135);
+            invias.Name = "invias";
+            invias.Size = new Size(75, 23);
+            invias.TabIndex = 9;
+            invias.Text = "invia";
+            invias.UseVisualStyleBackColor = true;
+            // 
+            // stato
+            // 
+            stato.AutoSize = true;
+            stato.Location = new Point(317, 258);
+            stato.Name = "stato";
+            stato.Size = new Size(38, 15);
+            stato.TabIndex = 10;
+            stato.Text = "label5";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label5);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
+            Controls.Add(stato);
+            Controls.Add(invias);
+            Controls.Add(invia);
+            Controls.Add(cassaforte);
             Controls.Add(label1);
+            Controls.Add(insblocco);
+            Controls.Add(insutente);
+            Controls.Add(codiceutente);
+            Controls.Add(label2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -138,14 +138,14 @@
 
         #endregion
 
-        private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label3;
-        private Label label4;
-        private Button button1;
-        private Button button2;
-        private Label label5;
+        private Label codiceutente;
+        private TextBox insutente;
+        private TextBox insblocco;
+        private Label label1;
+        private Label cassaforte;
+        private Button invia;
+        private Button invias;
+        private Label stato;
     }
 }
